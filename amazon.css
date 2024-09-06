@@ -1,0 +1,526 @@
+body{
+    background-color: whitesmoke;
+}
+.navbar{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    background-color:rgb(1, 1, 8) ;
+    color: white;
+}
+
+#logo{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+
+}
+#logo:hover{
+    border: 1px solid white;
+}
+.location{
+    height: 50px;
+    width: 220px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+     
+}
+.ri-map-pin-fill{
+    font-size: 26px;
+    margin-top: 5px;
+}
+.updatelocation{
+    margin-left: 1px;
+}
+.location p{
+    margin-top: 4px;
+    font-size: 13px;
+   
+}
+.location span{
+    font-size: 14px;
+    font-weight: 600;
+}
+.location:hover{
+    border: 1px solid white;
+}
+  
+.searchbar{
+   
+    height:50px;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 0px;
+  
+    display: flex;
+
+}
+.all{
+    height: 27px;
+    width: 30px;
+  
+    margin-top:16px;
+    border-radius: 3px;
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+
+}
+.all p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+.all i{
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.search{
+    height: 30px;
+    width:300px;
+    margin-left: 5px;
+    margin-top: 16px;
+    border-radius: 5px;
+  
+}
+input{
+    height: 22px;
+    width: 300px;
+    border-radius: 0px;
+    margin-top: 0px;
+    float: left;
+    border-right: none;
+}
+button{
+    float: left;
+    width: 33px;
+    height: 29px;
+    margin-top: 17px;
+    margin-left: 7px;
+    border-left: none;
+     border-radius: 5px;
+     font-size: 18px;
+     padding: 3px;
+     font-weight: 500;
+     background-color: orange;
+}
+
+.searchicon{
+    height: 28px;
+    width:26px;
+   
+    margin-top: 16px;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-left: 6px;
+    background-color: sandybrown;
+    color: black;
+    
+}
+button{
+    
+}
+
+.en{
+    
+    margin-left: 20px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    font-size: 14px;
+   
+    
+
+}
+.en img{
+    height: 22px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.en i{
+    margin-top: 18px;
+    font-size: 20px;
+}
+.en:hover{
+    border: 1px solid white;
+}
+.signup{
+    height: 50px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    display:flex;
+}
+.signup p{
+   margin-top: 5px;
+    text-align: center;
+    font-size: 12px;
+   
+}
+.signup span{
+    font-size: 14px;
+    margin-left: 2px;
+    font-weight: 600;
+}
+.signup i{
+    margin-top: 18px;
+    font-size: 20px;
+}
+.signup:hover{
+    border: 1px solid white;
+}
+
+.returns{
+    display: flex;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.returns p{
+    margin-top: 6px;
+    text-align: center;
+    font-size: 12px;
+   
+}
+.returns span{
+    font-size: 14px;
+    text-align: start;
+    font-weight: 600;
+}
+.returns i{
+    margin-top: 18px;
+    font-size: 20px;
+}
+.returns:hover{
+    border: 1px solid white;
+}
+.cart{
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 80px;
+    text-align: center;
+ 
+}
+.cart i{
+    margin-top: 18px;
+    font-size: 30px;
+}
+.cart span{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.cart:hover{
+    border: 1px solid white;
+}
+
+
+
+
+.navbaritems{
+    height: 50px;
+    width: 100%;
+  
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(5, 19, 65);
+    color: white;
+}
+.list{
+    
+    height: 48px;
+   
+}
+.list p{
+   margin-left: 10px;
+   font-size: 16px;
+   
+}
+.list:hover{
+    border: 1px solid white;
+}
+.img{
+    height: 400px;
+    width: 100%;
+}
+.itemimage{
+    
+    height: 480px;
+    display: flex;
+    justify-content:space-between ;
+    background-color:whitesmoke;
+
+}
+.image{
+    
+    height: 450px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    background-color: white;
+    
+    
+
+}
+h2{
+    margin-left: 5px;
+}
+.imagesection{
+    margin-left: 50px;
+    
+}
+.imagesection:hover{
+    scale: 130%;
+}
+.info{
+    margin-left: 50px;
+   
+}
+a{
+    margin-left: 30px;
+    text-decoration: none;
+    
+}
+a:hover{
+    border: 1px solid white;
+}
+.motorbikes{
+    height: 290px;
+   
+    background-color: whitesmoke;
+}
+
+.motorbikes h2{
+    background-color: whitesmoke;
+    font-size: 28px;
+    margin-left: 30px;}
+   
+
+.motorbikesimg{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    background-color: whitesmoke;
+    justify-content: space-between;
+
+}
+.div1{
+    width: 330px;
+    height: 200px;
+    margin-left: 10px;  
+    background-color: white;
+}
+
+.div1 img:hover{
+    background-color: whitesmoke;
+    scale: 105%;
+    
+}
+.unique-products{
+    background-color: whitesmoke; 
+}
+.unique-products h2{
+    font-size: 28px;
+    margin-left:30px ;
+}
+#unique-products{
+    display: flex;
+    margin-left: 10px;
+    background-color:white ;
+
+}
+#unique-products img{
+    margin-left: 15px;
+}
+#unique-products img:hover {
+   scale: 115%;
+}
+.movies{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+#movies{
+    height: 320px;
+    width: 23%;
+   
+    background-color: white;
+}
+
+.clothes-images img{
+    margin-left: 2px;
+    margin-top: 15px;
+}
+.clothes-image a{
+    margin-top: 10px;
+}
+.clothes-images img:hover {
+    scale: 105%;
+    background-color: whitesmoke;
+}
+.cars-image img{
+    height:200px ;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.cars-image img:hover{
+    scale: 105%;
+}
+.namacool img{
+    height: 220px;
+    margin-left: 18px;
+}
+#movies a{
+    color: skyblue;
+    font-weight: 400;
+}
+.Kitchen-image img{
+    height: 120px;
+    margin-left: 50px;
+}
+.ingredient{
+    background-color: white;
+
+}
+.ingredient img:hover{
+    scale: 105%;
+}
+.customer h2{
+    font-size: 23px;
+}
+/* #customer{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+} */
+ #customer{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 370px;
+    background-color: white;
+    
+ }
+ #customer img{
+   
+ }
+.customer-service{
+   
+
+    margin-left: 40px;
+    background-color: white;
+}
+.customer span{
+   
+    color: blue;
+}
+.customer span i{
+    color: orange;
+    font-size: 12px;
+}
+.customer-service img:hover{
+   scale: 105%;
+}
+.sign-in{
+    height: 150px;
+    align-items: center;
+    border: 1px solid  rgb(92, 84, 84);
+    border-left: none;
+     border-right: none;
+    background-color: white;
+}
+.register{
+ 
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 50px;
+    background-color: white;
+}
+.register button{
+    height: 25px;
+    width: 240px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 3px;
+     border: orange;
+  
+}
+.register p{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.register a{
+      margin-left: 0px; 
+}
+.back{
+    height: 40px;
+    background-color: rgb(18, 34, 83);
+    text-align: center;
+    
+}
+.back h4{
+     padding-top: 10px;
+     color:white;
+}
+.endpoint{
+    height: 380px;
+    border: 1px solid white;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    
+    background-color: rgb(25, 50, 83);
+
+}
+.footer-part{
+    height: 330px;
+    width: 18%;
+    
+    margin-top: 30px;
+    display: flex;
+    margin-left: 50px;
+    flex-direction: column;}
+   
+.footer-part h2{
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+.footer-part a{
+    margin-top: 10px;
+    color: white;
+   
+}
+.end{
+    height: 60px;
+    border: 2px solid red;
+    background-color: rgb(25, 50, 83);
+}
+.end img{
+    height: 30px;
+    background-blend-mode: color;
+    margin-left:400px ;
+    margin-top: 10px;
+}
+
+
+
+
+    
